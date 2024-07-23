@@ -1,0 +1,36 @@
+/* App Styles */
+header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #61dafb;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  nav a.active {
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: #282c34;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
