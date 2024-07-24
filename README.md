@@ -1,27 +1,65 @@
-# My-Portfolio
-This is my project portfolio website
-GIVEN a single-page application portfolio for a web developer
-WHEN I load the portfolio
-THEN I am presented with a page containing a header, a section for content, and a footer
-WHEN I view the header
-THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
-WHEN I view the navigation titles
-THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
-WHEN I click on a navigation title
-THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted
-WHEN I load the portfolio the first time
-THEN the About Me title and section are selected by default
-WHEN I am presented with the About Me section
-THEN I see a recent photo or avatar of the developer and a short bio about them
-WHEN I am presented with the Portfolio section
-THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository
-WHEN I am presented with the Contact section
-THEN I see a contact form with fields for a name, an email address, and a message
-WHEN I move my cursor out of one of the form fields without entering text
-THEN I receive a notification that this field is required
-WHEN I enter text into the email address field
-THEN I receive a notification if I have entered an invalid email address
-WHEN I am presented with the Resume section
-THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
-WHEN I view the footer
-THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
+# My Portfolio
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue.svg)](https://www.linkedin.com/in/dayel-przybyla/)
+
+<div align="center">
+  <a href="https://github.com/ddprzy37/My-Portfolio">
+    <img src="public/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">My Portfolio</h3>
+
+  <p align="center">
+    <a href="https://github.com/ddprzy37/My-Portfolio/"><strong>Explore the docs »</strong></a>
+    <br />
+    <a href="https://github.com/ddprzy37/My-Portfolio/">View Demo</a>
+    ·
+    <a href="https://github.com/ddprzy37/My-Portfolio/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    ·
+    <a href="https://github.com/ddprzy37/My-Portfolio/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+  </p>
+</div>
+
+## Description
+
+This project is a web application portfolio built with React and Vite. It includes:
+
+- **About Me**: A section with a profile photo and biography.
+- **Portfolio**: A showcase of various projects with images and links.
+- **Contact**: A form with validation for getting in touch.
+- **Resume**: A section for showcasing professional experience.
+
+The application is responsive and optimized for performance, using Vite for fast builds and React for a dynamic interface. Assets, including images, are managed through the `public` folder to ensure they are included in the build output.
+
+## Built With
+
+- React
+- Vite
+
+## Getting Started
+
+To get a local copy up and running, follow these steps:
+
+1. Clone the repo:
+   ```sh
+   git clone https://github.com/ddprzy37/My-Portfolio.git
+    ```
+2. Install NPM packages:
+    ```sh
+    npm install
+    ```
+3. Start the development server:
+    ```sh
+    npm run start
+    ```
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+Project Link: [https://github.com/ddprzy37/My-Portfolio](https://github.com/ddprzy37/My-Portfolio)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
