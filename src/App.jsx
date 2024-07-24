@@ -1,5 +1,5 @@
-import React from 'react';
-import { Element, scroller } from 'react-scroll';
+
+// import { Element } from 'react-scroll';
 import Header from './components/Header';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
@@ -10,22 +10,22 @@ import './App.css';
 
 const App = () => {
   return (
-    <>
+    <div>
       <Header />
-      <Element name="about" className="element">
+      <div id="about">
         <About />
-      </Element>
-      <Element name="portfolio" className="element">
+      </div>
+      <div id="portfolio">
         <Portfolio />
-      </Element>
-      <Element name="contact" className="element">
+      </div>
+      <div id="contact">
         <Contact />
-      </Element>
-      <Element name="resume" className="element">
+      </div>
+      <div id="resume">
         <Resume />
-      </Element>
+      </div>
       <Footer />
-    </>
+    </div>
   );
 };
 

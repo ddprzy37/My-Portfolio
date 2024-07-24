@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { validateEmail, validateField } from '../utils/formValidation';
 
 const Contact = () => {
