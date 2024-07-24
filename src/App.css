@@ -58,3 +58,82 @@ header {
 #resume {
   background-color: #f8f9fa;
 }
+
+.home-page {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.hero-section {
+  background-color: #f4f4f4;
+  padding: 40px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.services {
+  margin-top: 20px;
+}
+
+.service-item {
+  margin-bottom: 20px;
+}
+
+.service-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.service-item p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.technologies {
+  margin-top: 20px;
+}
+
+.tech-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.tech-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+.tech-logo img {
+  width: 60px; 
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.tech-logo span {
+  font-size: 0.9rem;
+}
+
+.technologies ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.technologies li {
+  background: #e9ecef;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 4px;
+}

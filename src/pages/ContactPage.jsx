@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom'; // Import Link for navigation
 import { validateEmail, validateField } from '../utils/formValidation';
 
 const Contact = () => {
@@ -18,7 +19,11 @@ const Contact = () => {
     if (!validateField(form.message)) newErrors.message = 'Message is required';
     setErrors(newErrors);
     if (Object.keys(newErrors).length === 0) {
-      // Form submission logic
+      // Form submission logic here
+      console.log('Form submitted:', form);
+      // Example: clear form and errors after successful submission
+      setForm({ name: '', email: '', message: '' });
+      setErrors({});
     }
   };
 
@@ -35,7 +40,7 @@ const Contact = () => {
             value={form.name}
             onChange={handleChange}
           />
-          {errors.name && <p>{errors.name}</p>}
+          {errors.name && <p className="error-text">{errors.name}</p>}
         </div>
         <div className="form-group">
           <label htmlFor="email">Email:</label>
@@ -46,7 +51,7 @@ const Contact = () => {
             value={form.email}
             onChange={handleChange}
           />
-          {errors.email && <p>{errors.email}</p>}
+          {errors.email && <p className="error-text">{errors.email}</p>}
         </div>
         <div className="form-group">
           <label htmlFor="message">Message:</label>
@@ -56,10 +61,15 @@ const Contact = () => {
             value={form.message}
             onChange={handleChange}
           />
-          {errors.message && <p>{errors.message}</p>}
+          {errors.message && <p className="error-text">{errors.message}</p>}
         </div>
         <button type="submit">Send</button>
       </form>
+      <div className="mt-3">
+        <Link to="/" className="btn btn-secondary">
+          Back to Home
+        </Link>
+      </div>
     </section>
   );
 };

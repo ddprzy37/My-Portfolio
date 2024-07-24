@@ -1,5 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { Navbar as BootstrapNavbar, Nav, Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import 'bootstrap/dist/css/bootstrap.min.css'; // Ensure Bootstrap CSS is imported
 
 const Navbar = ({ links }) => {
@@ -28,7 +29,9 @@ const Navbar = ({ links }) => {
   return (
     <BootstrapNavbar bg="dark" variant="dark" expand="lg">
       <Container>
-        <BootstrapNavbar.Brand href="#home">My Portfolio</BootstrapNavbar.Brand>
+        <BootstrapNavbar.Brand as={Link} to="/">
+          My Portfolio
+        </BootstrapNavbar.Brand>
         <BootstrapNavbar.Toggle aria-controls="basic-navbar-nav" ref={navbarToggleRef} />
         <BootstrapNavbar.Collapse id="basic-navbar-nav" ref={navbarCollapseRef}>
           <Nav className="ms-auto">
