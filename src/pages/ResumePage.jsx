@@ -115,7 +115,7 @@ const ResumePage = () => {
 
       <p>
         <a
-          href="/src/assets/RESUME (2).pdf"
+          href="/assets/RESUME (2).pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-primary"
@@ -126,7 +126,7 @@ const ResumePage = () => {
 
       <p>
         <a
-          href="/src/assets/RESUME (2).pdf"
+          href="/assets/RESUME (2).pdf"
           download="My_Resume.pdf"
           className="btn btn-success"
         >

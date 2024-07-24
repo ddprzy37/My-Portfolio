@@ -6,7 +6,7 @@ const About = () => (
     
     <div className="about-content">
       <img
-        src="/src/assets/IMG_0883.jpg"
+        src="/assets/IMG_0883.jpg"
         alt="Dayel's Photo"
         className="profile-photo"
       />
