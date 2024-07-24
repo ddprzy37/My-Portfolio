@@ -1,6 +1,3 @@
-
-
-
 const technologies = [
   { badgeUrl: 'https://img.shields.io/badge/HTML-5.0-blue.svg', url: 'https://developer.mozilla.org/en-US/docs/Web/HTML' },
   { badgeUrl: 'https://img.shields.io/badge/CSS-3.0-blue.svg', url: 'https://developer.mozilla.org/en-US/docs/Web/CSS' },
@@ -33,21 +30,21 @@ function HomePage() {
       </header>
 
       <section className="services">
-        <h2>Services</h2>
+        <h2>Services:</h2>
         <div className="service-item">
-          <h3>Web Development</h3>
+          <h5>Web Development</h5>
           <p>
             I specialize in building responsive and user-friendly websites using the latest technologies.
           </p>
         </div>
         <div className="service-item">
-          <h3>UI/UX Design</h3>
+          <h5>UI/UX Design</h5>
           <p>
             I design intuitive user interfaces and create engaging user experiences.
           </p>
         </div>
         <div className="service-item">
-          <h3>Consulting</h3>
+          <h5>Consulting</h5>
           <p>
             I offer consulting services to help you improve your digital presence and achieve your business goals.
           </p>
