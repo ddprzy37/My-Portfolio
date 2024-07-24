@@ -1,3 +1,4 @@
+// Contact.jsx
 import { useState } from 'react';
 import { Link } from 'react-router-dom'; // Import Link for navigation
 import { validateEmail, validateField } from '../utils/formValidation';
@@ -29,8 +30,8 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <h2>Contact</h2>
-      <form onSubmit={handleSubmit}>
+      <h2>Contact Me</h2>
+      <form onSubmit={handleSubmit} className="contact-form">
         <div className="form-group">
           <label htmlFor="name">Name:</label>
           <input
@@ -39,6 +40,7 @@ const Contact = () => {
             name="name"
             value={form.name}
             onChange={handleChange}
+            placeholder="Your Name"
           />
           {errors.name && <p className="error-text">{errors.name}</p>}
         </div>
@@ -50,6 +52,7 @@ const Contact = () => {
             name="email"
             value={form.email}
             onChange={handleChange}
+            placeholder="Your Email"
           />
           {errors.email && <p className="error-text">{errors.email}</p>}
         </div>
@@ -60,12 +63,13 @@ const Contact = () => {
             name="message"
             value={form.message}
             onChange={handleChange}
+            placeholder="Your Message"
           />
           {errors.message && <p className="error-text">{errors.message}</p>}
         </div>
-        <button type="submit">Send</button>
+        <button type="submit" className="submit-button">Send</button>
       </form>
-      <div className="mt-3">
+      <div className="back-link">
         <Link to="/" className="btn btn-secondary">
           Back to Home
         </Link>
@@ -75,3 +79,4 @@ const Contact = () => {
 };
 
 export default Contact;
+
