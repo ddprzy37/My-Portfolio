@@ -1,32 +1,17 @@
 
-// import { Element } from 'react-scroll';
-import Header from './components/Header';
-import About from './components/About';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
-import Resume from './components/Resume';
-import Footer from './components/Footer';
-import './App.css';
+import { Element } from 'react-scroll'
+import { Outlet } from 'react-router-dom';
+import Nav from './components/Nav';
 
-const App = () => {
+function App () {
   return (
-    <div>
-      <Header />
-      <div id="about">
-        <About />
-      </div>
-      <div id="portfolio">
-        <Portfolio />
-      </div>
-      <div id="contact">
-        <Contact />
-      </div>
-      <div id="resume">
-        <Resume />
-      </div>
-      <Footer />
-    </div>
+    <>
+      <Element />
+      <Nav />
+      <Outlet />
+    </>
   );
 };
 
 export default App;
+

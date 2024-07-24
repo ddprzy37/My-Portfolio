@@ -34,3 +34,27 @@ header {
     margin-bottom: 15px;
   }
   
+  /* src/App.css */
+.section {
+  padding: 60px 20px;
+}
+
+#home {
+  background-color: #f8f9fa;
+}
+
+#about {
+  background-color: #e9ecef;
+}
+
+#portfolio {
+  background-color: #f8f9fa;
+}
+
+#contact {
+  background-color: #e9ecef;
+}
+
+#resume {
+  background-color: #f8f9fa;
+}
