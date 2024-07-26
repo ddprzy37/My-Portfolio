@@ -9,11 +9,11 @@ export default defineConfig({
   },
   build: {
     assetsDir: 'assets', // This specifies the directory where assets are placed in the `dist` folder
-    rollupOptions: {
-      input: {
-        main: 'src/main.jsx', // Adjust based on your entry file
-      }
-    }
+    // rollupOptions: {
+    //   input: {
+    //     main: 'src/main.jsx', // Adjust based on your entry file
+    //   }
+    // }
   },
 });
 
