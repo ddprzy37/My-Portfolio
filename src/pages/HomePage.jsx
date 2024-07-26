@@ -52,7 +52,7 @@ function HomePage() {
       </section>
 
       <section className="technologies">
-        <h2>Technologies</h2>
+        <h2>My Skillset</h2>
         <div className="tech-badges">
           {technologies.map((tech, index) => (
             <a key={index} href={tech.url} target="_blank" rel="noopener noreferrer" className="tech-badge">
