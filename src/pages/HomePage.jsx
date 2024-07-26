@@ -30,26 +30,29 @@ function HomePage() {
       </header>
 
       <section className="services">
-        <h2>Services:</h2>
-        <div className="service-item">
-          <h5>Web Development</h5>
-          <p>
-            I specialize in building responsive and user-friendly websites using the latest technologies.
-          </p>
-        </div>
-        <div className="service-item">
-          <h5>UI/UX Design</h5>
-          <p>
-            I design intuitive user interfaces and create engaging user experiences.
-          </p>
-        </div>
-        <div className="service-item">
-          <h5>Consulting</h5>
-          <p>
-            I offer consulting services to help you improve your digital presence and achieve your business goals.
-          </p>
-        </div>
-      </section>
+  <h2>Services:</h2>
+  <ul className="tech-list">
+    <li>
+      <h5>Web Development</h5>
+      <p>
+        I specialize in building responsive and user-friendly websites using the latest technologies.
+      </p>
+    </li>
+    <li>
+      <h5>UI/UX Design</h5>
+      <p>
+        I design intuitive user interfaces and create engaging user experiences.
+      </p>
+    </li>
+    <li>
+      <h5>Consulting</h5>
+      <p>
+        I offer consulting services to help you improve your digital presence and achieve your business goals.
+      </p>
+    </li>
+  </ul>
+</section>
+
 
       <section className="technologies">
         <h2>My Skillset</h2>
@@ -65,4 +68,5 @@ function HomePage() {
     </div>
   );
 }
+
 export default HomePage;

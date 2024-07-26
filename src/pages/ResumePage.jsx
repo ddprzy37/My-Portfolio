@@ -16,17 +16,41 @@ const ResumePage = () => {
       </section>
 
       <section id="software-engineering">
-        <h2>Software Engineering</h2>
-        <p><strong>Proficient Programming Languages:</strong></p>
-        <ul>
-          <li>Python</li>
-        </ul>
-        <p><strong>Web Development:</strong></p>
-        <ul>
-          <li>Built and run my website called <a href="http://www.thepresentworkshop.com" target="_blank" rel="noopener noreferrer">www.thepresentworkshop.com</a> where I have been an Amazon affiliate since February 2022.</li>
-          <li>Proficient in using Meta and Google tools for advertising.</li>
-        </ul>
-      </section>
+  <h2>Software Engineering</h2>
+  
+  <p><strong>Proficient Programming Languages:</strong></p>
+  <div className="technologies">
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>JavaScript (ES6)</li>
+      <li>React</li>
+      <li>Node.js</li>
+      <li>MongoDB</li>
+      <li>Express</li>
+      <li>Bootstrap</li>
+      <li>jQuery</li>
+      <li>MySQL</li>
+      <li>Handlebars</li>
+      <li>Sequelize</li>
+      <li>REST APIs</li>
+      <li>GraphQL</li>
+      <li>Git</li>
+      <li>NoSQL</li>
+      <li>npm</li>
+    </ul>
+  </div>
+  
+  <p><strong>Web Development:</strong></p>
+  <ul>
+    <li>Built and run my website called <a href="http://www.thepresentworkshop.com" target="_blank" rel="noopener noreferrer">www.thepresentworkshop.com</a> where I have been an Amazon affiliate since February 2022.</li>
+    <li>Proficient in using Meta and Google tools for advertising.</li>
+    <li>Developed various web applications during my recent course, demonstrating strong skills in full-stack development, including creating interactive UIs with React and handling backend services with Node.js and Express.</li>
+    <li>Experienced in building and deploying applications using Vite for optimized development and build processes.</li>
+    <li>Implemented responsive design and optimized performance for various projects, including a personal portfolio showcasing a range of projects and skills.</li>
+  </ul>
+</section>
+
 
       <section id="awards">
         <h2>Awards</h2>
