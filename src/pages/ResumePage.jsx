@@ -19,7 +19,7 @@ const ResumePage = () => {
   <h2>Software Engineering</h2>
   
   <p><strong>Proficient Programming Languages:</strong></p>
-  <div className="technologies">
+  <div className="technologiess">
     <ul>
       <li>HTML5</li>
       <li>CSS3</li>
@@ -41,7 +41,8 @@ const ResumePage = () => {
     </ul>
   </div>
   
-  <p><strong>Web Development:</strong></p>
+  <p className = "web"><strong>Web Development:</strong></p>
+  <div >
   <ul>
     <li>Built and run my website called <a href="http://www.thepresentworkshop.com" target="_blank" rel="noopener noreferrer">www.thepresentworkshop.com</a> where I have been an Amazon affiliate since February 2022.</li>
     <li>Proficient in using Meta and Google tools for advertising.</li>
@@ -49,6 +50,7 @@ const ResumePage = () => {
     <li>Experienced in building and deploying applications using Vite for optimized development and build processes.</li>
     <li>Implemented responsive design and optimized performance for various projects, including a personal portfolio showcasing a range of projects and skills.</li>
   </ul>
+  </div>
 </section>
 
 
