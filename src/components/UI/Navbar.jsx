@@ -30,7 +30,7 @@ const Navbar = ({ links }) => {
     <BootstrapNavbar bg="dark" variant="dark" expand="lg">
       <Container>
         <BootstrapNavbar.Brand as={Link} to="/">
-          
+          My Portfolio
         </BootstrapNavbar.Brand>
         <BootstrapNavbar.Toggle aria-controls="basic-navbar-nav" ref={navbarToggleRef} />
         <BootstrapNavbar.Collapse id="basic-navbar-nav" ref={navbarCollapseRef}>
